@@ -1,0 +1,15 @@
+.star-rating {
+    display: flex;
+    gap: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.star {
+    color: #ccc; /* Warna default */
+    transition: color 0.2s ease-in-out;
+}
+
+.star.filled {
+    color: #ffc107; /* Warna bintang yang aktif */
+}

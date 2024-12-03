@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import StarRating from './components/starRating';
 
 function App() {
   return (
@@ -9,14 +10,16 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+         <h1>React Star Rating</h1>
+         <StarRating totalStars={5} />
       </header>
     </div>
   );

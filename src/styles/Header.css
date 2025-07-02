@@ -1,0 +1,28 @@
+.header {
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  
+  .nav-item:hover {
+    background-color: #ddd;
+  }
+  
+  .nav-item.active {
+    background-color: #007bff;
+    color: white;
+  }
+  

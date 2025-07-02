@@ -1,30 +1,7 @@
-// import logo from './logo.svg';
 import './App.css';
-// import StarRating from './components/starRating';
-import Login from './pages/login/login';
+import AppRoutes from './routes/AppRoutes';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p> */}
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-         {/* <h1>React Star Rating</h1>
-         <StarRating totalStars={5} /> */}
-        <Login/>
-      </header>
-    </div>
-  );
+export default function App() {
+  return <AppRoutes />;
 }
 
-export default App;

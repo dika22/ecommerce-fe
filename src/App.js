@@ -1,15 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import StarRating from './components/starRating';
+// import StarRating from './components/starRating';
+import Login from './pages/login/login';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> */}
         {/* <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,8 +19,9 @@ function App() {
         >
           Learn React
         </a> */}
-         <h1>React Star Rating</h1>
-         <StarRating totalStars={5} />
+         {/* <h1>React Star Rating</h1>
+         <StarRating totalStars={5} /> */}
+        <Login/>
       </header>
     </div>
   );
